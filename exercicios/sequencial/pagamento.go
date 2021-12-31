@@ -28,13 +28,10 @@ func main() {
 
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Nome: ")
-
 	nome, err := reader.ReadString('\n')
-
 	if err != nil {
 		fmt.Print("Erro ao digitar o nome")
 	}
-
 	fmt.Print("Valor por hora: ")
 	fmt.Scanln(&trb)
 
