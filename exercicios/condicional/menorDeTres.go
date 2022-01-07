@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 /*
 Problema "menor_de_tres"
@@ -23,12 +26,20 @@ func main() {
 	fmt.Print("Terceiro valor: ")
 	fmt.Scan(&c)
 
-	if a < b && a < c {
+	/* if a < b && a < c {
 		fmt.Print("MENOR = ", a)
 	} else if b < c {
 		fmt.Print("MENOR = ", b)
 	} else {
 		fmt.Print("MENOR = ", c)
-	}
+	} */
+	menor := menor(a, b, c)
+	fmt.Print("MENOR = ", menor)
+
+}
+
+func menor(x, y, z int) int {
+	round1 := math.Min(float64(x), float64(y))
+	return int(math.Min(round1, float64(z)))
 
 }
