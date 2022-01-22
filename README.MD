@@ -22,3 +22,20 @@
     - Map Aninhado
     - Slice
     - Slice Make
+- Funções
+    - Básicas
+    - Parâmetro
+    - Defer
+    - Pilha
+    - Recursividade
+    - Variática
+    - Init
+    - Closure
+- Sistema de tipos
+    - Composição
+    - Interface
+    - Json
+    - Metodos
+    - Pseudo-Herança
+    - Structs
+    - Tipo interface
