@@ -11,7 +11,7 @@ func rotina(ch chan int) {
 	ch <- 2
 	ch <- 3
 	ch <- 4
-	fmt.Println("Executou!")
+	fmt.Println("Executou!") // Dependendo da posição em que o Print está, ele pode ser impresso antes do buffer encher
 	ch <- 5
 	ch <- 6
 }
