@@ -39,3 +39,17 @@
     - Pseudo-Herança
     - Structs
     - Tipo interface
+- Pacotes
+    - Reta
+    - Reuso
+- Concorrência
+    - Bloqueio
+    - Chanel
+    - Buffer
+    - Generator
+    - GoRutine
+    - Mutiplexador
+    - Select
+    - RangeChanel
+    - CPU
+    
