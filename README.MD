@@ -1,5 +1,5 @@
 ## Estudo da linguagem GOLang
-- Fundamentos
+-  [Fundamentos](./fundamentos) 
     - Tipos de Variáveis
     - Atribuição
     - Tipos de dados
