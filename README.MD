@@ -7,22 +7,22 @@
     - Conversoes
     - Tipos relacionais
 
-- Estrutura de controle 
+- [Estrutura de controle](./estrutura_de_controle) 
     - if else
     - ifInt
     - Switch
 
-- Estrutura de repetição
+- Estrutura de repetição 
     - For
     - For Range
-- Coleção
+- [Coleção](./Array,Slice,Map)
     - Array
     - Array Interno
     - Map
     - Map Aninhado
     - Slice
     - Slice Make
-- Funções
+- [Funções](./funções)
     - Básicas
     - Parâmetro
     - Defer
@@ -31,7 +31,7 @@
     - Variática
     - Init
     - Closure
-- Sistema de tipos
+- [Sistema de tipos](./sistema_de_tipos)
     - Composição
     - Interface
     - Json
@@ -39,10 +39,10 @@
     - Pseudo-Herança
     - Structs
     - Tipo interface
-- Pacotes
+- [Pacotes](./Pacotes)
     - Reta
     - Reuso
-- Concorrência
+- [Concorrência](./concorrência)
     - Bloqueio
     - Chanel
     - Buffer
@@ -52,4 +52,8 @@
     - Select
     - RangeChanel
     - CPU
+- [Testes](./testes)
+    - Arqutetura de teste
+    - DataSet
+    
     
